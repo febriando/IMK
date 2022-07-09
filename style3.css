@@ -1,0 +1,126 @@
+/* Jumbotron */
+.jumbotron{
+    background-image: url(pink.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+/* isi */
+.naik{
+  margin-top: 00px;
+}
+.berminyak{
+    margin-top: 100px;
+    text-align: left;
+}
+.berminyak h3{
+    font-weight: 200;
+    font-size: 52px;
+}
+.berminyak p{
+    margin: 20px 0;
+    height: 200px;
+    width: 300px;
+}
+
+
+.facialwash{
+    margin-top: 100px;
+    text-align: center;
+}
+.facialwash-img{
+    height: 400px;
+    width: 400px;
+}
+.facialwash h3{
+    font-weight: 200;
+    font-size: 52px;
+    margin-top: 45px;
+}
+.facialwash p{
+    margin: 20px 0;
+    height: 200px;
+    width: 300px;
+}
+.bold{
+    font-weight: bold;
+}
+.tombol-facialwash{
+    margin-top: -20px;
+}
+.tombol-pelembab{
+    margin-top: -70px;
+}
+.tombol-sunscreen{
+    margin-top: -70px;
+}
+.tombol-bioderma{
+    margin-top: -20px;
+}
+.tombol-loreal{
+    margin-top: -30px;
+}
+.tombol-clarins{
+    margin-top: -20px;
+}
+.tombol-dhc{
+    margin-top: 0px;
+}
+.tombol-berminyak{
+    margin-top: -170px;
+}
+.tombol-kering{
+    margin-top: -20px;
+}
+.tombol-kombinasi{
+    margin-top: auto;
+}
+.tombol-himalaya{
+    margin-top: 30px;
+}
+.tombol{
+    margin-top: 20px;
+}
+
+/* Footer */
+#footer{
+    background:#333;
+    color:#fff;
+}
+#footer{
+  background:#333;
+  color:#fff;
+}
+#footer{
+  text-align: center;
+  margin-top: -40px;
+  height:50px;
+  line-height:50px;
+  background:#333;
+  color:#fff;
+
+  width:100%; /*biar memenuhi layar*/
+}
+
+
+/* desktop version */
+@media (min-width: 992px){
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid pink;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .facialwash{
+      text-align: left;
+    }
+}
